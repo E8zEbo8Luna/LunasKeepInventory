@@ -1,0 +1,45 @@
+{
+  "values": [
+    {"id": "#enchantable/durability", "required": false},
+    {"id": "#boats", "required": false},
+    {"id": "#chest_boats", "required": false},
+
+    {"id": "bow", "required": false},
+    {"id": "crossbow", "required": false},
+    {"id": "arrow", "required": false},
+    {"id": "spectral_arrow", "required": false},
+    {"id": "tipped_arrow", "required": false},
+    {"id": "snowball", "required": false},
+    {"id": "egg", "required": false},
+    {"id": "firework_rocket", "required": false},
+
+    {"id": "bucket", "required": false},
+    {"id": "water_bucket", "required": false},
+    {"id": "lava_bucket", "required": false},
+    {"id": "powder_snow_bucket", "required": false},
+    {"id": "milk_bucket", "required": false},
+    {"id": "cod_bucket", "required": false},
+    {"id": "salmon_bucket", "required": false},
+    {"id": "tropical_fish_bucket", "required": false},
+    {"id": "pufferfish_bucket", "required": false},
+    {"id": "axolotl_bucket", "required": false},
+    {"id": "tadpole_bucket", "required": false},
+
+    {"id": "fishing_rod", "required": false},
+    {"id": "flint_and_steel", "required": false},
+    {"id": "shears", "required": false},
+    {"id": "brush", "required": false},
+    {"id": "lead", "required": false},
+    {"id": "bundle", "required": false},
+    {"id": "compass", "required": false},
+    {"id": "recovery_compass", "required": false},
+    {"id": "spyglass", "required": false},
+    {"id": "ender_pearl", "required": false},
+    {"id": "elytra", "required": false},
+    {"id": "saddle", "required": false},
+    {"id": "carrot_on_a_stick", "required": false},
+    {"id": "warped_fungus_on_a_stick", "required": false},
+
+    {"id": "wind_charge"}
+  ]
+}

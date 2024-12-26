@@ -1,0 +1,1 @@
+execute store result score lose_item lki.other run random value 1..100
