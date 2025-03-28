@@ -22,4 +22,6 @@ scoreboard players set 2.5 lki.numbers 25
 scoreboard players set 2 lki.numbers 2
 scoreboard players set -162.5 lki.numbers -16250
 
+gamerule keepInventory true
+
 function lki:5t-loop
