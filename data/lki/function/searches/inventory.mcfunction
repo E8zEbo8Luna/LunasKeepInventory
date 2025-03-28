@@ -34,3 +34,5 @@ execute unless items entity @s container.32 #lki:keep run function lki:drop_item
 execute unless items entity @s container.33 #lki:keep run function lki:drop_item {slot:33}
 execute unless items entity @s container.34 #lki:keep run function lki:drop_item {slot:34}
 execute unless items entity @s container.35 #lki:keep run function lki:drop_item {slot:35}
+
+execute unless items entity @s weapon.offhand #lki:keep run function lki:drop_item {slot:35}
