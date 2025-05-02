@@ -2,8 +2,10 @@ scoreboard objectives add lki.death_detection deathCount
 scoreboard objectives add lki.other dummy
 scoreboard objectives add lki.numbers dummy
 scoreboard objectives add lki.settings dummy
+scoreboard objectives add lki.opt_out trigger
+scoreboard objectives add lki.opt_in trigger
 
-execute unless score lose_percentage lki.settings matches 0..100 run scoreboard players set lose_percentage lki.settings 40
+execute unless score lose_percentage lki.settings matches 0..100 run scoreboard players set lose_percentage lki.settings 60
 execute unless score xp_kept lki.settings matches 0..3 run scoreboard players set xp_kept lki.settings 2
 
 scoreboard players set 2220 lki.numbers 2220
