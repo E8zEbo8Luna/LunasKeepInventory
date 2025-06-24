@@ -1,1 +1,0 @@
-$scoreboard players set xp_kept lki.settings $(setting)
