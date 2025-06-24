@@ -1,0 +1,27 @@
+{
+  "type": "multi_action",
+  "title": "Luna's Keep Inventory menu",
+  "external_title": "LKI menu",
+  "columns": 1,
+  "body": {
+    "type": "plain_message",
+    "contents": "Welcome to Luna's Keep Inventory! Here you can opt out/in and check the current settings of LKI. If you are an admin looking to change the settings run \"/dialog show @s lki:settings\" to change the settings.",
+    "width": 400
+  },
+  "actions": [
+    {
+      "label": "Get Opt Status in Chat",
+      "action": {
+        "type": "run_command",
+        "command": "function lki:settings/get_opt_status"
+      }
+    },
+    {
+      "label": "Opt Out/In",
+      "action": {
+        "type": "run_command",
+        "command": "function lki:settings/change_opt_status"
+      }
+    }
+  ]
+}

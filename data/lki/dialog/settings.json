@@ -1,0 +1,32 @@
+{
+  "type":"notice",
+  "title":"Luna's Keep Inventory settings",
+  "inputs":[
+    {
+      "type":"number_range",
+      "key":"item_lose_chance",
+      "label":"Item Lose Chance",
+      "start":0,
+      "end":100,
+      "step":1,
+      "initial":40
+    },
+    {
+      "type":"number_range",
+      "key":"xp_keep_amount",
+      "label":"XP Keep Amount (thirds)",
+      "start":0,
+      "end":3,
+      "step":1,
+      "initial":2
+    }
+  ],
+  "action":{
+    "label":"Change Settings",
+    "id":"submit",
+    "on_submit":{
+      "type":"command_template",
+      "template":"function lki:settings/change_settings {item_lose_chance:$(item_lose_chance), xp_keep_amount:$(xp_keep_amount)}"
+    }
+  }
+}
