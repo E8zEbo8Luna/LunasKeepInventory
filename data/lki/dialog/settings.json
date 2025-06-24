@@ -23,9 +23,8 @@
   ],
   "action":{
     "label":"Change Settings",
-    "id":"submit",
-    "on_submit":{
-      "type":"command_template",
+    "action":{
+      "type":"dynamic/run_command",
       "template":"function lki:settings/change_settings {item_lose_chance:$(item_lose_chance), xp_keep_amount:$(xp_keep_amount)}"
     }
   }
